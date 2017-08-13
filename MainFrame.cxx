@@ -42,7 +42,7 @@ void MainFrame::CreateControls()
   this->Centre(wxBOTH);
 }
 
-// @brief This saves an allegro bitmap into a wxMemoryInputStream an stored in a wxBitmap.
+// @brief This saves an allegro bitmap into a wxMemoryInputStream and stores it in a wxBitmap.
 // Taken from the Allegro forum: https://www.allegro.cc/forums/thread/614260
 bool MainFrame::SaveBitmap(ALLEGRO_BITMAP * sub, int x, int y, int slice_w, int slice_h, const char * prefix, wxBitmap &returnBitmap)
 {
